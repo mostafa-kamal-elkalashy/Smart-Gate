@@ -1,0 +1,143 @@
+.sec-1 .contanier nav .container form button{
+    color: white;
+    background-color: chocolate;
+    border: none;
+}
+.sec-1 .contanier nav .container form input{
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #8E8E8E;
+}
+.sec-1 .contanier nav .container form img{
+    width: 90%;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.sec-one .contanier{
+    padding-top:10px;
+}
+
+.about-one .container .row {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.about-one .container .row .about-dis {
+    padding: 20px;
+}
+.about-one .container .row .about-dis p{
+    color: #434343;
+    padding-left: 50px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.about-one .container .row .about-dis h3{
+    font-size: 30px;
+    color:#2B2B2B;
+    padding: 20px 0;
+}
+.about-one .container .row .about-img{
+    
+    padding: 50px 20px;
+}
+.about-one .container .row .about-img img{
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width:990px) {
+    .about-one .container .row .about-dis{
+        width: 98%;
+    }
+    .about-one .container .row .about-img{
+        width: 98%;
+    }
+    
+}
+@media (max-width:750px) {
+    .about-one .container .row .about-dis{
+        width: 98%;
+    }
+    .about-one .container .row .about-img{
+        width: 98%;
+    }
+    
+}
+
+/* -----------------------end the about- one section-------------------- */
+
+
+.about-two{
+    background-image:linear-gradient(#FFFFFF,#e7e6e6) ;
+}
+.about-two .container{
+    padding-top: 100px;
+}
+.about-two .container .head {
+    border-right: 5px solid #3485B9;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.about-two .container .head h2{
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.about-two .container .head p{
+    color: #2B2B2B;
+    
+}
+.about-two .container .row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-two .container .row div{
+    text-align: center;
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
+}.about-two .container .row div h4{
+    padding-top: 10px;
+}
+.about-two .container .row div p{
+    font-size:16px ;
+    color: #707070;
+    padding-top: 10px;
+}
+.about-two .container .row div img{
+    width: 95%;
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+
+@media (max-width:990px) {
+    .about-two .container .head{
+        width: 98%;
+    }
+    .about-two .container .row div{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:990px) {
+    .about-two .container .head{
+        width: 98%;
+    }
+    .about-two .container .row div{
+        width: 98%;
+    }
+    
+}
+
+
+/* -----------------------end the about- one section-------------------- */
